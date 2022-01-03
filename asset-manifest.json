@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/apple-front-page-clone/static/css/main.0d1675be.css",
+    "main.js": "/apple-front-page-clone/static/js/main.46de01bb.js",
+    "index.html": "/apple-front-page-clone/index.html",
+    "main.0d1675be.css.map": "/apple-front-page-clone/static/css/main.0d1675be.css.map",
+    "main.46de01bb.js.map": "/apple-front-page-clone/static/js/main.46de01bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d1675be.css",
+    "static/js/main.46de01bb.js"
+  ]
+}
