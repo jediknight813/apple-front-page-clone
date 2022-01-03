@@ -1,0 +1,110 @@
+.header_container {
+    z-index: 5;
+    display: flex;
+    top: 2.5%;
+    width: 56%;
+    border-radius: 4px;
+    right: 23%;
+    height: 4%;
+    background-color: aqua;
+    position: absolute;
+    justify-content: center;
+}
+
+.header_button {
+    border: none;
+    flex: 1;
+    color: white;
+    text-shadow: -1px -1px rgb(78 78 78);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    border-right: solid 0.5px rgb(83, 83, 83);
+    background: rgb(94, 94, 94);
+    background: linear-gradient( 
+        0deg, rgba(122, 122, 122, 1) 0%, rgb(114, 114, 114) 25%, rgb(108, 108, 108) 49%, rgb(152, 150, 150) 50%, rgb(147, 146, 146) 75%, rgb(184, 183, 183) 100% );
+}
+
+.header_button:hover {
+    text-shadow: -1px -1px rgb(78 78 78);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    border-right: solid 1px rgb(83, 83, 83);
+    background: rgb(135, 133, 133);
+    background: linear-gradient( 
+        0deg, rgb(85, 85, 85) 0%, rgba(99, 99, 99, 1) 25%, rgba(94, 94, 94, 1) 49%, rgba(113, 113, 113, 1) 50%, rgba(123, 123, 123, 1) 75%, rgba(149, 149, 149, 1) 100% );
+}
+
+
+.header_container .apple_icon:hover {
+    text-shadow: -1px -1px rgb(78 78 78);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+    border-right: solid 1px rgb(83, 83, 83);
+    background: rgb(135, 133, 133);
+    background: linear-gradient( 
+        0deg, rgb(85, 85, 85) 0%, rgba(99, 99, 99, 1) 25%, rgba(94, 94, 94, 1) 49%, rgba(113, 113, 113, 1) 50%, rgba(123, 123, 123, 1) 75%, rgba(149, 149, 149, 1) 100% );
+}
+
+
+.header_container .apple_icon{
+    text-shadow: -1px -1px rgb(78 78 78);
+    border: none;
+    color: white;
+    flex: 1;
+    height: 100%;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: solid 1px rgb(83, 83, 83);
+    background: rgb(122, 122, 122);
+    background: linear-gradient( 
+        0deg, rgba(122, 122, 122, 1) 0%, rgb(114, 114, 114) 25%, rgb(108, 108, 108) 49%, rgb(152, 150, 150) 50%, rgb(147, 146, 146) 75%, rgb(184, 183, 183) 100% );
+}
+
+
+.header_search_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1.5;
+    height: 100%;
+    border-right: solid 1px rgb(83, 83, 83);
+    background: rgb(122, 122, 122);
+    background: linear-gradient( 
+        0deg, rgba(122, 122, 122, 1) 0%, rgb(114, 114, 114) 25%, rgb(108, 108, 108) 49%, rgb(152, 150, 150) 50%, rgb(147, 146, 146) 75%, rgb(184, 183, 183) 100% );
+}
+
+.header_search_container input{
+    text-align: center;
+    width: 80%;
+    color: white;
+    border-radius: 30px 30px 30px 30px;
+    background: rgb(122, 122, 122);
+    background: linear-gradient( 
+        0deg, rgba(122, 122, 122, 1) 0%, rgb(114, 114, 114) 25%, rgb(108, 108, 108) 49%, rgb(152, 150, 150) 50%, rgb(147, 146, 146) 75%, rgb(184, 183, 183) 100% );
+}
+
+.header_search_container img {
+    pointer-events: none;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(41%) hue-rotate(4deg) brightness(113%) contrast(100%);
+    top: 34%;
+    left: 88%;
+    position: absolute;
+
+}
+
+.header_search_container:focus-within img{
+    position: absolute;
+    filter: brightness(0) saturate(100%);
+    left: 85%;
+    position: absolute;
+}
+
+.header_search_container:focus-within {
+    flex: 2;
+}
+
+.header_search_container:focus-within input {
+    outline:none;
+    background-color: white;
+    background: white;
+    color: black;
+}
